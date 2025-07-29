@@ -1,0 +1,45 @@
+site_name: OpenCloning Documentation
+
+theme:
+  name: material
+  logo: assets/oc_logo.svg
+  favicon: assets/favicon.ico
+  features:
+    # This messed up the custom footer
+    # - navigation.instant
+    - content.action.edit
+    - navigation.expand
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - md_in_html
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascript/extra.js
+
+plugins:
+  - search
+  - macros
+
+repo_url: https://github.com/OpenCloning/OpenCloning_docs
+site_url: https://docs.opencloning.org
+edit_uri: edit/master/docs/
+
+extra:
+  generator: false
+  support_email: manulera14@gmail.com
+
+nav:
+  - Home: index.md
+  - Other:
+    - Productivity tricks: productivity.md
+  - FAQs: faqs.md
+  - Contributing: contributing.md
+  - Funding: funding.md

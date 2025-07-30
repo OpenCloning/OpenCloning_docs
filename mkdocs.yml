@@ -9,6 +9,7 @@ theme:
     # - navigation.instant
     - content.action.edit
     - navigation.expand
+  custom_dir: overrides
 
 markdown_extensions:
   - toc:
@@ -38,6 +39,7 @@ edit_uri: edit/master/docs/
 extra:
   generator: false
   support_email: manulera14@gmail.com
+  umami_website_id: 4a7654bd-8d6c-4144-9679-07f19de0e530
 
 nav:
   - Home: index.md

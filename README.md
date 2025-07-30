@@ -13,6 +13,15 @@ To install the dependencies, we used poetry (see [poetry installation instructio
 poetry install
 ```
 
+### Update submodules
+
+The documentation uses text from the OpenCloning repositories, via `mkdocs` include. This allows us to keep a single version of the documentation.
+
+```bash
+git submodule update --init --recursive
+```
+
+
 ### Run a dev server that gets updated as you type
 
 ```bash

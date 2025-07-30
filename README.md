@@ -1,10 +1,8 @@
-# Canto tutorial
+# OpenCloning documentation
 
-A static site with canto documentation for users to get started with Canto. The website is deployed every time a commit to master is made and can be accessed at https://pombase.github.io/canto_tutorial/.
+A static site for [OpenCloning](https://opencloning.org), hosted at [docs.opencloning.org](https://docs.opencloning.org).
 
-## Run locally
-
-For Val, if you have not added poetry to the path, use `.local/bin/poetry` instead of poetry.
+## Running locally
 
 ### Install dependencies
 
@@ -19,7 +17,7 @@ poetry install
 
 ```bash
 # activate virtual environment
-poetry shell
+source .venv/bin/activate
 # start dev server
 mkdocs serve
 ```
@@ -28,7 +26,7 @@ Go to http://127.0.0.1:8000/ and you should see the page.
 
 ## Adding content
 
-Full documentation on the theme and static site generator used (Material for MkDocs) can be found in the [official documentation](https://squidfunk.github.io/mkdocs-material/). There is some extra info in the [repo wiki](https://github.com/pombase/canto_tutorial/wiki).
+Full documentation on the theme and static site generator used (Material for MkDocs) can be found in the [official documentation](https://squidfunk.github.io/mkdocs-material/). There is some extra info in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Content license
 

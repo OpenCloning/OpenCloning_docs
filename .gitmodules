@@ -1,0 +1,3 @@
+[submodule "OpenCloning"]
+	path = OpenCloning
+	url = https://github.com/manulera/OpenCloning

@@ -3,7 +3,7 @@
     --md-primary-fg-color--light: color-mix(in srgb, rgb(25, 118, 210) 80%, white);
     --md-primary-fg-color--dark:  color-mix(in srgb, rgb(25, 118, 210) 80%, black);
     --md-accent-fg-color:                rgb(25, 118, 210);
-    --md-accent-fg-color--transparent:   color-mix(in srgb, rgb(25, 118, 210) 80%, transparent);
+    --md-accent-fg-color--transparent:   color-mix(in srgb, rgb(25, 118, 210) 20%, transparent);
     --md-footer-bg-color--dark:          none;
   }
 
@@ -126,4 +126,17 @@ main {
 .md-typeset p {
   margin-block-end: .3em;
   margin-block-start: .3em;
+}
+
+.img-container {
+  text-align: center;
+  margin:  auto;
+}
+
+div.admonition p {
+  font-size: 1.2em;
+}
+
+.md-typeset p {
+  margin-bottom: 1em;
 }

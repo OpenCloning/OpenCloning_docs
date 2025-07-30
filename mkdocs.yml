@@ -27,6 +27,9 @@ extra_javascript:
 plugins:
   - search
   - macros
+  - include-markdown
+  - mkdocs-video:
+      video_controls: true
 
 repo_url: https://github.com/OpenCloning/OpenCloning_docs
 site_url: https://docs.opencloning.org
@@ -38,8 +41,14 @@ extra:
 
 nav:
   - Home: index.md
-  - Other:
-    - Productivity tricks: productivity.md
-  - FAQs: faqs.md
+  - Importing sequences: importing_sequences.md
+  - The OpenCloning interface: interface.md
+  - Primers: primers.md
+  - Exporting sequences and workflows: exporting.md
+  - Supported methods:
+    - Blah: blah.md
+    - Bluh: bluh.md
+  - Primer design: primer_design.md
+  - Sequencing data: sequencing_data.md
+  - Running your own instance: running_your_own_instance.md
   - Contributing: contributing.md
-  - Funding: funding.md

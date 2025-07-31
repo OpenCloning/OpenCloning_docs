@@ -22,6 +22,10 @@ In some of these videos, the interface might be slightly different, but the func
 
 When you are in the PCR form, and you select `Design primers`, then `Gibson Assembly`, don't select any other input sequence, and click `Design primers`. Don't forget to select `Circular Assembly` in the `Other settings` field of the primer design form.
 
+## Primer design for Golden Gate Assembly
+
+Coming soon
+
 ## Primer design for Gateway cloning
 
 <div class="video-sizer">

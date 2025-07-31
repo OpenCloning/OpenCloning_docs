@@ -140,3 +140,8 @@ div.admonition p {
 .md-typeset p {
   margin-bottom: 1em;
 }
+
+.img-footer {
+  font-size: 0.8em;
+  color: #666;
+}

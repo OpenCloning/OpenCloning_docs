@@ -64,5 +64,6 @@ nav:
   - Primer design: primer_design.md
   - Sequencing data: sequencing_data.md
   - Annotating sequences and finding features: annotating_sequences.md
+  - Templates: templates.md
   - Running your own instance: running_your_own_instance.md
   - Contributing: contributing.md

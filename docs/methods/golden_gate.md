@@ -37,11 +37,15 @@ You can load a template to use this kit in OpenCloning [here](https://app.opencl
 
 ## How to plan Golden Gate Assembly using OpenCloning
 
+<!--description-start-->
+
 Like any other cloning method, click on the plus icon below a sequence in the `Cloning` tab and select `Restriction + ligation / Golden Gate`. Then, select the input sequences in the `Assembly inputs` field, as well as the enzyme you want to use (you can use more than one). If you know that your desired product is a circular plasmid, tick `Circular Assemblies only` to exclude other possible linear assemblies from the results.
 
 <div markdown class="img-container">
 ![](../assets/methods/golden_gate_capture.gif)
 </div>
+
+<!--description-end-->
 
 ### Extra features
 

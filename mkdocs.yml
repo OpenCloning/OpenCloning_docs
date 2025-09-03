@@ -48,19 +48,19 @@ nav:
   - Primers: primers.md
   - Exporting sequences and workflows: exporting.md
   - Supported methods:
-    - 🛠 Cre/LoxP: methods/cre_loxp.md
-    - 🛠 CRISPR-HDR: methods/crispr_hdr.md
-    - 🛠 Gateway Cloning: methods/gateway.md
-    - Gibson Assembly: methods/gibson.md
-    - Golden Gate Assembly: methods/golden_gate.md
-    - Homologous Recombination: methods/homologous_recombination.md
-    - In Vivo Assembly: methods/in_vivo_assembly.md
-    - 🛠 In-Fusion Cloning: methods/in_fusion.md
-    - 🛠 Overlap Extension PCR: methods/overlap_extension.md
-    - 🛠 PCR: methods/pcr.md
-    - 🛠 Polymerase extension of overhangs: methods/polymerase_extension.md
-    - Restriction / Ligation: methods/restriction_ligation.md
-    - Reverse Complement: methods/reverse_complement.md
+      - 🛠 Cre/LoxP: methods/cre_loxp.md
+      - CRISPR-HDR: methods/crispr_hdr.md
+      - 🛠 Gateway Cloning: methods/gateway.md
+      - Gibson Assembly: methods/gibson.md
+      - Golden Gate Assembly: methods/golden_gate.md
+      - Homologous Recombination: methods/homologous_recombination.md
+      - In Vivo Assembly: methods/in_vivo_assembly.md
+      - 🛠 In-Fusion Cloning: methods/in_fusion.md
+      - 🛠 Overlap Extension PCR: methods/overlap_extension.md
+      - 🛠 PCR: methods/pcr.md
+      - 🛠 Polymerase extension of overhangs: methods/polymerase_extension.md
+      - Restriction / Ligation: methods/restriction_ligation.md
+      - Reverse Complement: methods/reverse_complement.md
   - Primer design: primer_design.md
   - Sequencing data: sequencing_data.md
   - Annotating sequences and finding features: annotating_sequences.md

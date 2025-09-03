@@ -10,6 +10,11 @@ In some of these videos, the interface might be slightly different, but the func
     </div>
 </div>
 
+## Primer design for CRISPR-HDR
+
+You can design primers to add homology arms when amplifying the donor sequence, the same way you would do for homologous recombination (see above).
+
+
 ## Primer design for Gibson assembly
 
 <div class="video-sizer">

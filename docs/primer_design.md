@@ -32,6 +32,14 @@ When you are in the PCR form, and you select `Design primers`, then `Gibson Asse
 
 The process is similar to Gibson Assembly, simply select "In Vivo Assembly" in the primer design form.
 
+## Primer design for In-Fusion Cloning
+
+The process is similar to Gibson Assembly, simply select "In-Fusion Cloning" in the primer design form.
+
+## Primer design for Overlap Extension PCR
+
+The process is similar to Gibson Assembly, use the Gibson Assembly primer design form, then change the method to "Overlap Extension PCR".
+
 ## Primer design for Golden Gate Assembly
 
 Coming soon

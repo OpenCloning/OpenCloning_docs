@@ -2,6 +2,9 @@
 
 In some of these videos, the interface might be slightly different, but the functionality is basically the same.
 
+!!! info "Parameters used to calculate melting temperature for primer design"
+    You can set the parameters used to calculate melting temperature in the [Settings tab](./settings.md).
+
 ## Primer design for homologous recombination
 
 <div class="video-sizer">

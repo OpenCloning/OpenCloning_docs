@@ -47,6 +47,7 @@ nav:
   - The OpenCloning interface: interface.md
   - Primers: primers.md
   - Exporting sequences and workflows: exporting.md
+  - Settings: settings.md
   - Supported methods:
       - 🛠 Cre/LoxP: methods/cre_loxp.md
       - CRISPR-HDR: methods/crispr_hdr.md

@@ -26,6 +26,10 @@ You can export primers to a `.csv` or `.tsv` file by clicking on the `Download p
 
 ## The primer table
 
+
+!!! info "Parameters used to calculate melting temperature and other thermodynamic properties"
+    You can set the parameters used to calculate and display melting temperature and other thermodynamic properties in the primer table and for [primer design](./primer_design.md) in the [Settings tab](./settings.md).
+
 The primer table shows properties of the primers, and the icons on the left side of the table allow you to edit or delete the primer, and see extra info about it.
 
 If the primers are used in a PCR or oligonucleotide hybridization, the information for the binding part is shown first, and the information for the full primer is shown in parenthesis. For example, below the primer `vector_forward` has a total length of 36bps, but only 19 bind to its template in the PCR, so the table shows `19 (36)` in the `Length` column.

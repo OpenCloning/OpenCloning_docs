@@ -28,10 +28,10 @@ git submodule update --init --recursive
 # activate virtual environment
 source .venv/bin/activate
 # start dev server
-mkdocs serve
+mkdocs serve -a localhost:8001
 ```
 
-Go to http://127.0.0.1:8000/ and you should see the page.
+Go to http://127.0.0.1:8001/ and you should see the page.
 
 ## Adding content
 

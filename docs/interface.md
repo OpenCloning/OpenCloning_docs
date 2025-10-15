@@ -11,6 +11,7 @@ At the top of the page, you have four tabs:
 * `Description`: to add / see a plain text description for your cloning strategy.
 * `Sequence`: A sequence viewer, to see the sequences you have loaded, and their features. When using the [primer designer](./primer_design.md), this tab also allows you to select part of sequences for primer design, such as what regions you want to amplify from a plasmid, or what region you want to replace in the genome (for homologous recombination).
 * `Data model`: shows part of the data model that you can download as a `.json` file, in case you are interested on how will that look.
+* `Settings`: to set global application settinsg. For now, includes parameters to calculate melting temperature and other thermodynamic properties in the [primer table](./primers.md#the-primer-table) and for [primer design](./primer_design.md).
 
 ## Use sequences for cloning and genome engineering
 

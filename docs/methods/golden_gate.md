@@ -51,4 +51,4 @@ Like any other cloning method, click on the plus icon below a sequence in the `C
 
 * If you are using a MoClo kit, you can speed up the process by using the existing templates or create your own (see [Templates](../templates.md)).
 * If you want to design primers for the Golden Gate Assembly (see [Primer design](../primer_design.md#primer-design-for-golden-gate-assembly)).
-* If you want to separate the restriction and ligation steps (see [Restriction / Ligation](../methods/restriction_ligation.md#separate-restriction-and-ligation)).
+* If you want to separate the restriction and ligation steps (see [Restriction / Ligation](../methods/restriction_ligation.md#how-to-separately-perform-restriction-and-ligation-using-opencloning)).

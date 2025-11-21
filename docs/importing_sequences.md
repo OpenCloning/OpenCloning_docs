@@ -14,7 +14,7 @@ The easiest way to load your files is to drag and drop your files into the appli
 
 * Multiple sequence files: FASTA (`.fasta`, `.fa`), GenBank (`.gb`, `.gbk`), SnapGene (`.dna`), ApE (`.ape`).
  > ⚠️ If a FASTA or GenBank file dropped contains multiple sequences, only the first one will be loaded.
-* A single `.json` or `.zip` file containing a cloning strategy (see [exporting docs](./exporting.md#exporting-a-cloning-strategy)).
+* A single `.json` or `.zip` file containing a cloning strategy (see [exporting docs](./exporting.md#download-cloning-history)).
 
 <div markdown style="max-width: 500px" class="img-container">
 ![](assets/importing_sequences_drop.gif)

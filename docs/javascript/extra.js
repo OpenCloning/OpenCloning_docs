@@ -2,7 +2,7 @@
 // A simple script that displays a random did you know message at the footer
 
 const allMessages = [
-    'You can write scripts to automate cloning, see <a href="https://github.com/manulera/OpenCloning_backend/blob/master/examples/scripting/README.md">the docs</a>.',
+    'You can write scripts to automate cloning, see <a href="https://github.com/manulera/OpenCloning_backend?tab=readme-ov-file#scripting-with-pydna">the docs</a>.',
 ]
 
 const randomMessage = allMessages[Math.floor(Math.random() * allMessages.length)]

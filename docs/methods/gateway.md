@@ -9,7 +9,7 @@ Gateway Cloning was developed by [Invitrogen](https://www.thermofisher.com/uk/en
 * In nature, the phage genome contains a longer recognisition site _attP_ that can be recombined with a shorter recognition site _attB_ found in host genomes by a recombinase, leading to the integration of the phage genome into the host genome.
 * This is similar to [Homologous Recombination](./homologous_recombination.md), but rather than relying on long homologous sequences, it uses shorter recognition sites.
 * These sites have a short common part (represented by the white box with a circle in the cartoon), but the flanking regions are different
-* After recombination, the resulting sites flanking the integrated fragment have sequences resulting from the combination _attB_ + _attP_ and _attB_ + _attP_ respectively, and are called _attL_ and _attR_.
+* After recombination, the resulting sites flanking the integrated fragment have sequences resulting from the combination _attB_ + _attP_ and _attP_ + _attB_ respectively, and are called _attL_ and _attR_.
 
 <div markdown style="max-width: 400px" class="img-container">
 ![](../assets/methods/gateway_recombinase_cartoon.png)

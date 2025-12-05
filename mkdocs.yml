@@ -49,7 +49,7 @@ nav:
   - Exporting sequences and workflows: exporting.md
   - Settings: settings.md
   - Supported methods:
-      - 🛠 Cre/LoxP: methods/cre_loxp.md
+      - Cre/LoxP: methods/cre_loxp.md
       - CRISPR-HDR: methods/crispr_hdr.md
       - Gateway Cloning: methods/gateway.md
       - Gibson Assembly: methods/gibson.md

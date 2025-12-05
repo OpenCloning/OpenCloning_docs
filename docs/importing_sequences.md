@@ -1,9 +1,13 @@
+---
+description: Learn how to import DNA sequences into OpenCloning from various sources including drag-and-drop files, AddGene, NCBI genome databases, and manual entry. Supports FASTA, GenBank, SnapGene, and ApE file formats.
+---
+
 # Importing sequences
 
 You can load sequences into OpenCloning from many places. You can either drag-and-drop files, or use the import sequence form. If you want to load more than one sequence via sequence form, you can add more "lanes" by clicking on the + button.
 
 <div markdown style="max-width: 500px" class="img-container">
-![](assets/importing_sequences_add_lanes.gif)
+![Animation showing how to add multiple sequence import lanes in OpenCloning](../assets/importing_sequences_add_lanes.gif)
 </div>
 
 ## Loading your own files
@@ -17,7 +21,7 @@ The easiest way to load your files is to drag and drop your files into the appli
 * A single `.json` or `.zip` file containing a cloning strategy (see [exporting docs](./exporting.md#download-cloning-history)).
 
 <div markdown style="max-width: 500px" class="img-container">
-![](assets/importing_sequences_drop.gif)
+![Animation demonstrating drag-and-drop file import functionality in OpenCloning](../assets/importing_sequences_drop.gif)
 </div>
 
 ### Use "Submit file"
@@ -29,7 +33,7 @@ You can load an individual file, by selecting "Submit file" in "Source type". Th
 * If the file contains multiple sequences, you will be able to select which one to load.
 
 <div markdown style="max-width: 300px" class="img-container">
-![](assets/importing_sequences_source.png)
+![Screenshot of sequence import form showing source type selection and options](../assets/importing_sequences_source.png)
 </div>
 
 ### Use "File > Load cloning history from file"
@@ -37,7 +41,7 @@ You can load an individual file, by selecting "Submit file" in "Source type". Th
 If you want to load a `.json` or `.zip` file containing a cloning strategy, you can use the "File > Load cloning history from file" menu item.
 
 <div markdown style="max-width: 200px" class="img-container">
-![](assets/importing_sequences_load_cloning_history.png)
+![Screenshot showing File menu with Load cloning history from file option](../assets/importing_sequences_load_cloning_history.png)
 </div>
 
 ## Loading sequences from a repository
@@ -52,7 +56,7 @@ OpenCloning can load sequences from multiple repositories. On `Source type`, sel
 On `Source type`, select `Genome Region`, which enables several options:
 
 <div markdown style="max-width: 300px" class="img-container">
-![](assets/importing_sequences_genome_region.png)
+![Screenshot of genome region import form with species, assembly, and coordinate options](../assets/importing_sequences_genome_region.png)
 </div>
 
 * When using a reference genome, you can query by species and the reference genome assembly for that species will be used.
@@ -75,7 +79,7 @@ On `Source type`, select `Genome Region`, which enables several options:
 On `Source type`, select `Enter manually`, and you will be able to add a sequence as text. It must only contain ACGT characters. You can choose whether the sequence is circular, and specify overhangs. Overhangs can contain positive and negative values. The following settings:
 
 <div markdown style="max-width: 300px" class="img-container">
-![](assets/importing_enter_manually.png)
+![Screenshot of manual sequence entry form with sequence text area and overhang options](../assets/importing_enter_manually.png)
 </div>
 
 Would produce the sequence below. For full documentation on the meaning of overhangs, check the meaning of `crick_ovhg` and `watson_ovhg` in the [pydna documentation](https://pydna-group.github.io/pydna/modules/pydna_all.html#pydna.all.Dseq.from_full_sequence_and_overhangs).

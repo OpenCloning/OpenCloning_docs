@@ -1,3 +1,7 @@
+---
+description: Complete guide to Gateway Cloning in OpenCloning. Learn how to plan BP and LR reactions, design primers with attB sites, and create Entry Clones and Expression Clones.
+---
+
 # Gateway Cloning
 
 ## What is Gateway Cloning?
@@ -12,7 +16,7 @@ Gateway Cloning was developed by [Invitrogen](https://www.thermofisher.com/uk/en
 * After recombination, the resulting sites flanking the integrated fragment have sequences resulting from the combination _attB_ + _attP_ and _attP_ + _attB_ respectively, and are called _attL_ and _attR_.
 
 <div markdown style="max-width: 400px" class="img-container">
-![](../assets/methods/gateway_recombinase_cartoon.png)
+![Diagram showing phage recombinase mechanism with attP and attB sites](../assets/methods/gateway_recombinase_cartoon.png)
 <div markdown class="img-footer">
 Adapted from [iGEM wiki](https://parts.igem.org/Recombination/Bacteriophage_lambda-derived_att)
 </div>
@@ -33,14 +37,14 @@ Cloning with gateway involves three steps:
 3. Do an LR reaction, which recombines the "Entry Clone" with a destination vector, producing a plasmid termed "Expression Clone". The LR reaction can also integrate multiple sequences into the destination vector in what is known as a [MultiSite Gateway](https://www.thermofisher.com/uk/en/home/life-science/cloning/gateway-cloning/multisite-gateway-technology.html).
 
 <div markdown style="max-width: 500px" class="img-container">
-![](../assets/methods/gateway_BP.png)
+![Gateway BP reaction diagram showing integration of PCR product into donor plasmid](../assets/methods/gateway_BP.png)
 <div markdown class="img-footer">
 BP reaction. From [Addgene blog post](https://blog.addgene.org/plasmids-101-gateway-cloning)
 </div>
 </div>
 
 <div markdown style="max-width: 500px" class="img-container">
-![](../assets/methods/gateway_LR.png)
+![Gateway LR reaction diagram showing recombination of Entry Clone with destination vector](../assets/methods/gateway_LR.png)
 <div markdown class="img-footer">
 LR reaction. From [Addgene blog post](https://blog.addgene.org/plasmids-101-gateway-cloning)
 </div>
@@ -62,7 +66,7 @@ Think of the BP reaction as a domestication step, similar to the one for [Golden
 * If you want to design primers with attB sites for Gateway Cloning, see [Primer design](../primer_design.md#primer-design-for-gateway-cloning).
 
 <div markdown style="max-width: 500px" class="img-container">
-![](../assets/methods/gateway_capture.png)
+![Screenshot of Gateway cloning interface in OpenCloning showing assembly inputs selection](../assets/methods/gateway_capture.png)
 </div>
 
 

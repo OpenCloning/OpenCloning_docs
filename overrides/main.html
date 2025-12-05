@@ -1,5 +1,59 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+{# Open Graph / Facebook #}
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.canonical_url }}" />
+<meta property="og:title" content="{{ page.title }} - {{ config.site_name }}" />
+<meta property="og:description"
+  content="{{ page.meta.description if page.meta and page.meta.description else config.site_description }}" />
+<meta property="og:image" content="{{ config.site_url }}/assets/oc_logo.svg" />
+<meta property="og:site_name" content="{{ config.site_name }}" />
+
+{# Twitter #}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="{{ page.canonical_url }}" />
+<meta name="twitter:title" content="{{ page.title }} - {{ config.site_name }}" />
+<meta name="twitter:description"
+  content="{{ page.meta.description if page.meta and page.meta.description else config.site_description }}" />
+<meta name="twitter:image" content="{{ config.site_url }}/assets/oc_logo.svg" />
+
+{# Additional meta tags #}
+<meta name="description"
+  content="{{ page.meta.description if page.meta and page.meta.description else config.site_description }}" />
+<meta name="author" content="{{ config.site_author }}" />
+<link rel="canonical" href="{{ page.canonical_url }}" />
+
+{# Structured Data (JSON-LD) #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{% if page.is_homepage %}WebSite{% else %}TechArticle{% endif %}",
+    "headline": "{{ page.title }}",
+    "description": "{{ page.meta.description if page.meta and page.meta.description else config.site_description }}",
+    "url": "{{ page.canonical_url }}",
+    "author": {
+      "@type": "Organization",
+      "name": "{{ config.site_author }}",
+      "url": "{{ config.repo_url }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ config.site_author }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ config.site_url }}/assets/oc_logo.svg"
+      }
+    }{% if page.is_homepage %},
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ config.site_url }}/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }{% endif %}
+  }
+  </script>
+{% endblock %}
+
 {% block analytics %}
 <script async defer src="https://cloud.umami.is/script.js"
   data-website-id="{{ config.extra.umami_website_id }}"></script>

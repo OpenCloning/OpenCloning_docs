@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: OpenCloning is an open-source web application for planning and documenting molecular cloning experiments. Import sequences from AddGene and NCBI, design primers, plan cloning workflows using Gibson Assembly, Golden Gate, Gateway, CRISPR-HDR, and more.
 ---
 
 # {{ config.site_name }}

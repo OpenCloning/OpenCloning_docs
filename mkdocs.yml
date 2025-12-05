@@ -1,14 +1,19 @@
 site_name: OpenCloning Documentation
+site_description: Comprehensive documentation for OpenCloning - a web-based tool for planning and visualizing molecular cloning experiments, supporting PCR, Gibson Assembly, Golden Gate, Gateway, CRISPR-HDR, and more cloning methods.
+site_author: Manuel Lera Ramirez
+site_url: https://docs.opencloning.org
 
 theme:
   name: material
   logo: assets/oc_logo.svg
   favicon: assets/favicon.ico
+  language: en
   features:
     # This messed up the custom footer
     # - navigation.instant
     - content.action.edit
     - navigation.expand
+    - search.share
   custom_dir: overrides
 
 markdown_extensions:
@@ -33,13 +38,17 @@ plugins:
       video_controls: true
 
 repo_url: https://github.com/OpenCloning/OpenCloning_docs
-site_url: https://docs.opencloning.org
 edit_uri: edit/master/docs/
 
 extra:
   generator: false
   support_email: manulera14@gmail.com
   umami_website_id: 4a7654bd-8d6c-4144-9679-07f19de0e530
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OpenCloning
 
 nav:
   - Home: index.md

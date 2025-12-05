@@ -1,3 +1,7 @@
+---
+description: Learn how to plan and execute PCR (Polymerase Chain Reaction) in OpenCloning. Design primers, add tails for cloning, and visualize primer binding in the sequence editor.
+---
+
 # PCR
 
 ## What is PCR?
@@ -11,7 +15,7 @@ PCR (Polymerase Chain Reaction) is a technique to amplify a DNA sequence. It req
 The process is repeated for multiple cycles, and the result is a exponential amplification of the target sequence.
 
 <div markdown style="max-width: 800px" class="img-container">
-![](../assets/methods/pcr_cartoon.png)
+![PCR process diagram showing denaturation, annealing, and extension cycles](../assets/methods/pcr_cartoon.png)
 <div markdown class="img-footer">
 Created by [Enzoklop](https://en.wikipedia.org/wiki/Polymerase_chain_reaction#/media/File:Polymerase_chain_reaction-en.svg) [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 </div>
@@ -29,7 +33,7 @@ You can also add extra bases to the 5' end of the primers to incorporate extra s
 Like any other cloning method, click on the plus icon below your template sequence in the `Cloning` tab and select `PCR`. You will be able to select the primers to use, or alternatively design them directly using the [Primer designer](../primer_design.md).
 
 <div markdown style="max-width: 700px" class="img-container">
-![](../assets/methods/pcr.gif)
+![Animation showing how to plan PCR in OpenCloning interface](../assets/methods/pcr.gif)
 </div>
 
 ## Parameters used to calculate melting temperature and thermodynamic properties
@@ -45,9 +49,9 @@ Once you do a PCR, you will see the primers in the sequence editor, both in the 
 
 <div markdown style="display: flex; gap: 20px; justify-content: flex-start;">
   <div markdown style="max-width: 250px; flex: 1;" class="img-container">
-  ![](../assets/methods/pcr_primer_annotation1.png)
+  ![Primer annotation in template sequence view](../assets/methods/pcr_primer_annotation1.png)
   </div>
   <div markdown style="max-width: 500px; flex: 1;" class="img-container">
-  ![](../assets/methods/pcr_primer_annotation2.png)
+  ![Primer annotation in PCR product sequence view](../assets/methods/pcr_primer_annotation2.png)
   </div>
 </div>

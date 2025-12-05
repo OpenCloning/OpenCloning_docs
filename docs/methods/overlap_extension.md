@@ -1,3 +1,7 @@
+---
+description: Learn how to plan Overlap Extension PCR in OpenCloning. Fuse multiple DNA fragments using primers with 5' tails that encode homologous overlaps.
+---
+
 # Overlap Extension PCR
 
 ## What is Overlap Extension PCR?
@@ -8,7 +12,7 @@ Overlap Extension PCR fuses two or more DNA fragments that share short homologou
 * After initial amplification, the overlapping fragments anneal and are extended to create the full-length product, which can then be amplified by outer primers.
 
 <div markdown style="max-width: 300px" class="img-container">
-![](../assets/methods/overlap_extension_wikipedia.svg)
+![Diagram showing overlap extension PCR process with internal primers carrying 5' tails](../assets/methods/overlap_extension_wikipedia.svg)
 <div markdown class="img-footer">
 Created by Staticd [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 </div>
@@ -19,7 +23,7 @@ Created by Staticd [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0
 Like any other cloning method, click on the plus icon below a sequence in the `Cloning` tab and select `Join Overlap Extension PCR fragments`. Then, select the sequences to combine in the `Assembly inputs` field. OpenCloning checks adjacent fragments for sufficient terminal homology and proposes valid fused products.
 
 <div markdown style="max-width: 700px" class="img-container">
-![](../assets/methods/overlap_extension.gif)
+![Animation demonstrating Overlap Extension PCR workflow in OpenCloning](../assets/methods/overlap_extension.gif)
 </div>
 
 

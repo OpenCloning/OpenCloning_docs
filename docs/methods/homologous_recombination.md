@@ -1,3 +1,7 @@
+---
+description: Learn how to plan homologous recombination for genome integration in OpenCloning. Design primers with homology arms, simulate donor sequence integration, and plan genome engineering workflows.
+---
+
 # Homologous Recombination
 
 ## What is homologous recombination?
@@ -7,7 +11,7 @@ Homologous recombination is a process of exchange of DNA fragments between two D
 In the context of genome engineering, homologous recombination occurs when a donor DNA molecule (generally a plasmid or linear DNA transformed into a cell / organism) integrates into the genome based on shared subsequences between the donor sequence and the genome. Three typical examples are displayed below:
 
 <div markdown style="max-width: 800px" class="img-container">
-![](../assets/methods/homologous_recombination_cartoon.png)
+![Diagram showing three examples of homologous recombination for genome integration](../assets/methods/homologous_recombination_cartoon.png)
 </div>
 
 ## How to plan homologous recombination / genome integration using OpenCloning
@@ -17,7 +21,7 @@ Like any other cloning method, click on the plus icon below a sequence in the `C
 `Minimal homology length` is the minimum length of the shared subsequence between the donor and the genome that is required for the integration to occur.
 
 <div markdown style="max-width: 600px" class="img-container">
-![](../assets/methods/homologous_recombination_form.png)
+![Screenshot of homologous recombination form in OpenCloning showing template sequence, insert sequence, and minimal homology length settings](../assets/methods/homologous_recombination_form.png)
 </div>
 
 !!! info "Getting too many results or no results in homologous recombination?"

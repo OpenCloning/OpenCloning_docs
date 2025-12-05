@@ -1,3 +1,7 @@
+---
+description: Learn how to plan and execute Gibson Assembly in OpenCloning. Join DNA fragments with shared overlaps, circularize fragments, and design primers for Gibson Assembly cloning workflows.
+---
+
 # Gibson Assembly
 
 ## What is Gibson Assembly?
@@ -7,7 +11,7 @@
 * Finally, a DNA polymerase adds the complementary strand of gaps left by the exonuclease, and a ligase removes nicks.
 
 <div markdown style="max-width: 300px" class="img-container">
-![](../assets/methods/gibson_assembly_wikipedia.png)
+![Diagram showing Gibson Assembly process: exonuclease digestion, annealing, and polymerase/ligase repair](../assets/methods/gibson_assembly_wikipedia.png)
 <div markdown class="img-footer">
 Created by Tobias Vornholt [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 </div>
@@ -21,7 +25,7 @@ A Gibson assembly takes as input sequences that already have shared overlaps at 
 To simulate Gibson Assembly, click on the plus icon below a sequence in the `Cloning` tab and select `Gibson Assembly`. Then, select the sequences that you want to combine in the `Assembly inputs` field.
 
 <div markdown style="max-width: 700px" class="img-container">
-![](../assets/methods/gibson_assembly.gif)
+![Animation demonstrating Gibson Assembly workflow in OpenCloning interface](../assets/methods/gibson_assembly.gif)
 </div>
 
 ### Circularizing a single fragment using Gibson Assembly

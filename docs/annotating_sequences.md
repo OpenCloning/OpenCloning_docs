@@ -1,3 +1,7 @@
+---
+description: Guide to annotating DNA sequences in OpenCloning. Learn how to manually add features, use pLannotate for automatic annotation, and manage sequence annotations.
+---
+
 # Annotating sequences
 
 ## Manual annotation
@@ -14,7 +18,7 @@ You can manually annotate a sequence in the `Sequence` tab.
 * If you create a primer, it will also be added to the `Primers` tab, and you can use it for cloning.
 
 <div markdown style="max-width: 600px" class="img-container">
-![](assets/annotation_edit_features.gif)
+![Animation demonstrating manual sequence annotation workflow in OpenCloning](../assets/annotation_edit_features.gif)
 </div>
 
 ## Automatic annotation with pLannotate
@@ -26,5 +30,5 @@ You can manually annotate a sequence in the `Sequence` tab.
 * You will get the annotated sequence as a product, and you can see more info about the annotation in the `See Report` button (above the sequence in the `Cloning` tab).
 
 <div markdown style="max-width: 600px" class="img-container">
-![](assets/annotation_pLannotate.gif)
+![Animation showing automatic annotation using pLannotate in OpenCloning](../assets/annotation_pLannotate.gif)
 </div>

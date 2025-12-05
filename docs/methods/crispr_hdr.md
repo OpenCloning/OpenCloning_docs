@@ -1,3 +1,7 @@
+---
+description: Guide to planning CRISPR-HDR (Homology Directed Repair) genome engineering in OpenCloning. Design primers for homology arms, add protospacers as primers, and simulate CRISPR-Cas9 genome editing.
+---
+
 # CRISPR-HDR
 
 ## What is CRISPR-HDR?
@@ -15,13 +19,13 @@
 Start by designing your gRNAs, and **add their PROTOSPACERS as primers, not the full gRNA sequence** (see [how to add primers](../primers.md#creating-primers)).
 
 <div markdown style="max-width: 600px" class="img-container">
-![](../assets/methods/crispr_protospacers.png)
+![Diagram showing how to add protospacers as primers in OpenCloning for CRISPR-HDR](../assets/methods/crispr_protospacers.png)
 </div>
 
 Like any other cloning method, click on the plus icon below a sequence in the `Cloning` tab and select `CRISPR`. You will be asked to select the `Template Sequence` (that should be the genome) and the `Insert Sequence` (that should be the donor sequence that you transformed, plasmid or linear DNA). In OpenCloning, CRISPR-HDR works like homologous recombination (see [documentation](homologous_recombination.md) for settings). In addition, the form requires you to select at least a gRNA (you can also select multiple gRNAs).
 
 <div markdown style="max-width: 600px" class="img-container">
-![](../assets/methods/crispr_screenshot.png)
+![Screenshot of CRISPR-HDR interface in OpenCloning showing template sequence, insert sequence, and gRNA selection](../assets/methods/crispr_screenshot.png)
 </div>
 
 If you want to design primers to add homology arms when amplifying the donor sequence, see [Primer design](../primer_design.md#primer-design-for-crispr-hdr).

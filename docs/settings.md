@@ -1,3 +1,7 @@
+---
+description: Configure OpenCloning settings including primer thermodynamic parameters, melting temperature calculations, monovalent cation concentration, and other application preferences.
+---
+
 # Settings
 
 ## Primer thermodynamic settings
@@ -11,5 +15,5 @@ For now, you can specify:
 - The divalent cation concentration (default 1.5 mM)
 
 <div markdown style="max-width: 600px" class="img-container">
-![](assets/settings.png)
+![Screenshot of OpenCloning settings tab showing primer thermodynamic parameters configuration](../assets/settings.png)
 </div>

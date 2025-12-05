@@ -1,3 +1,7 @@
+---
+description: Learn how to plan Cre/LoxP recombination in OpenCloning. Use site-specific recombination for DNA inversion, excision, integration, and chromosomal rearrangement with LoxP sites.
+---
+
 # Cre/LoxP
 
 ## What is Cre/LoxP recombination?
@@ -16,7 +20,7 @@ In genetics, induced Cre expression is often used for:
 However, some systems can use Cre to modify the genome through **DNA integration** (reverse reaction to excision).
 
 <div markdown style="max-width: 600px" class="img-container">
-![](../assets/methods/cre_lox_figure.png)
+![Diagram showing Cre/LoxP recombination: DNA inversion, chromosomal rearrangement, and DNA excision](../assets/methods/cre_lox_figure.png)
 </div>
 
 ### Irreversible Cre integration
@@ -24,7 +28,7 @@ However, some systems can use Cre to modify the genome through **DNA integration
 Normally, Cre integration/excision is a reversible process. However, some systems use modified LoxP sites that prevent the reverse reaction. An example of this the lox66 and lox71 sites described in [doi:10.1093/nar/gnf089](https://doi.org/10.1093/nar/gnf089).
 
 <div markdown style="max-width: 300px" class="img-container">
-![](../assets/methods/cre_lox_irreversible.jpg)
+![Diagram showing irreversible Cre integration using modified lox66 and lox71 sites](../assets/methods/cre_lox_irreversible.jpg)
 </div>
 
 ## How to plan Cre/LoxP recombination using OpenCloning?
@@ -39,5 +43,5 @@ Normally, Cre integration/excision is a reversible process. However, some system
     this would be possible in theory. If you need this functionality, [reach out](https://opencloning.org/contact/).
 
 <div markdown style="max-width: 500px" class="img-container">
-![](../assets/methods/cre_lox_screenshot.png)
+![Screenshot of Cre/LoxP recombination interface in OpenCloning showing assembly inputs selection](../assets/methods/cre_lox_screenshot.png)
 </div>

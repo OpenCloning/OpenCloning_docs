@@ -1,3 +1,7 @@
+---
+description: Learn how to use polymerase extension of overhangs in OpenCloning. Fill in 3' overhangs of partially double-stranded molecules with DNA polymerase, typically used after oligonucleotide hybridization.
+---
+
 # Polymerase extension of overhangs
 
 ## What is polymerase extension of overhangs?
@@ -13,5 +17,5 @@ Like any other cloning method, click on the plus icon below a sequence with 5' o
 OpenCloning simulates the fill‑in step and outputs the fully double‑stranded sequence with no internal single‑stranded regions.
 
 <div markdown style="max-width: 700px" class="img-container">
-![](../assets/methods/templateless_pcr.gif)
+![Animation showing polymerase extension of overhangs workflow in OpenCloning](../assets/methods/templateless_pcr.gif)
 </div>

@@ -1,3 +1,7 @@
+---
+description: Guide to templateless PCR in OpenCloning. Generate double-stranded DNA without a template by combining oligonucleotide hybridization and polymerase extension of overhangs.
+---
+
 # Templateless PCR
 
 ## What is templateless PCR?
@@ -10,5 +14,5 @@ Templateless PCR generates double‑stranded DNA without an initial double-stran
 Do an [Oligonucleotide hybridization](./oligonucleotide_hybridization.md) and then a [Polymerase extension of overhangs](./polymerase_extension.md).
 
 <div markdown style="max-width: 700px" class="img-container">
-![](../assets/methods/templateless_pcr.gif)
+![Animation demonstrating templateless PCR workflow combining oligonucleotide hybridization and polymerase extension](../assets/methods/templateless_pcr.gif)
 </div>

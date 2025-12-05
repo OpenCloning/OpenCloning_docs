@@ -1,3 +1,7 @@
+---
+description: Complete guide to Golden Gate Assembly in OpenCloning. Learn about MoClo modular cloning, type II restriction enzymes like BsaI, and how to plan multi-fragment assemblies.
+---
+
 # Golden Gate Assembly
 
 ## What is Golden Gate Assembly?
@@ -5,7 +9,7 @@
 A Golden Gate Assembly is just a restriction / ligation reaction that uses type II restriction enzymes, like BsaI. In these enzymes, the recognition site is different from the cut site, so you can generate any type of overhang for them. See the example below for BsaI, where the recognition site `GGTCTC` is different from the place they cut.
 
 <div markdown style="max-width: 400px" class="img-container">
-![](../assets/methods/golden_gate_BsaI.png)
+![Diagram showing BsaI type II restriction enzyme recognition site and cut site](../assets/methods/golden_gate_BsaI.png)
 </div>
 
 ### MoClo / Modular cloning
@@ -15,7 +19,7 @@ MoClo kits contain plasmids that follow a convention or "syntax". Sets of plasmi
 For example, in the [CIDAR kit](https://doi.org/10.1021/acssynbio.5b00124), plasmids that contain promoters always produce a fragment containing the promoter flanked with `GGAG` and `ATGA` 5' overhangs when cut with BsaI.
 
 <div markdown style="max-width: 400px" class="img-container">
-![](../assets/methods/golden_gate_CIDAR.png)
+![Diagram showing CIDAR MoClo kit syntax with promoter overhangs](../assets/methods/golden_gate_CIDAR.png)
 <div markdown class="img-footer">
 From [doi:10.1021/acssynbio.5b00124](https://doi.org/10.1021/acssynbio.5b00124)
 </div>
@@ -26,13 +30,13 @@ Parts of certain types are meant to be assembled together through Golden Gate. T
 Below is the syntax for [GoldenPiCS](https://doi.org/10.1186/s12918-017-0492-3), a combinatorial assembly kit.
 
 <div markdown style="max-width: 800px" class="img-container">
-![](../assets/methods/golden_gate_goldenPiCS.png)
+![Diagram showing GoldenPiCS combinatorial assembly kit syntax](../assets/methods/golden_gate_goldenPiCS.png)
 </div>
 
 You can load a template to use this kit in OpenCloning [here](https://app.opencloning.org/?source=template&key=kits-gasser-goldenpics&template=assembly_template_001.json).
 
 <div markdown style="max-width: 800px" class="img-container">
-![](../assets/methods/golden_gate_template.png)
+![Screenshot showing Golden Gate template interface in OpenCloning](../assets/methods/golden_gate_template.png)
 </div>
 
 ## How to plan Golden Gate Assembly using OpenCloning
@@ -42,7 +46,7 @@ You can load a template to use this kit in OpenCloning [here](https://app.opencl
 Like any other cloning method, click on the plus icon below a sequence in the `Cloning` tab and select `Restriction + ligation / Golden Gate`. Then, select the input sequences in the `Assembly inputs` field, as well as the enzyme you want to use (you can use more than one). If you know that your desired product is a circular plasmid, tick `Circular Assemblies only` to exclude other possible linear assemblies from the results.
 
 <div markdown class="img-container">
-![](../assets/methods/golden_gate_capture.gif)
+![Animation demonstrating Golden Gate Assembly workflow in OpenCloning interface](../assets/methods/golden_gate_capture.gif)
 </div>
 
 <!--description-end-->

@@ -1,3 +1,7 @@
+---
+description: Learn how to reverse complement DNA sequences in OpenCloning. Invert and complement sequences for cloning workflows and feature orientation.
+---
+
 # Reverse Complement
 
 ## What does it mean to reverse complement a sequence?
@@ -7,7 +11,7 @@ It means inverting the order of the sequence, and complementing the bases (`A ->
 When we think of double-stranded DNA, like plasmids and genome sequences, a sequence and its reverse complement are the same thing. However, it can be useful to reverse complement a sequence for cloning, for instance, to display a feature of interest in the forward orientation.
 
 <div markdown style="max-width: 400px" class="img-container">
-![](../assets/methods/reverse_complement.png)
+![Diagram showing reverse complement operation on a DNA sequence](../assets/methods/reverse_complement.png)
 </div>
 
 ## How to reverse complement a sequence using OpenCloning?

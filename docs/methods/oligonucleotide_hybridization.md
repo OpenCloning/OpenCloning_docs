@@ -1,3 +1,7 @@
+---
+description: Learn how to plan oligonucleotide hybridization in OpenCloning. Design and anneal synthetic single-stranded DNA oligonucleotides to create double-stranded DNA fragments with overhangs.
+---
+
 # Oligonucleotide hybridization
 
 ## What is oligonucleotide hybridization?
@@ -15,5 +19,5 @@ Unlike other cloning methods, Oligonucleotide hybridization does not require any
 * OpenCloning simulates annealing by aligning complementary regions and reports the resulting double‑stranded product, including any remaining single‑stranded overhangs if present.
 
 <div markdown style="max-width: 700px" class="img-container">
-![](../assets/methods/templateless_pcr.gif)
+![Animation showing oligonucleotide hybridization workflow in OpenCloning](../assets/methods/templateless_pcr.gif)
 </div>

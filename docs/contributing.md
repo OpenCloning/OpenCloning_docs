@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+description: Learn how to contribute to OpenCloning documentation. Report errors, propose fixes, add FAQs, and contribute new documentation content via GitHub or email.
 ---
 
 ### I have spotted an error, what can I do?

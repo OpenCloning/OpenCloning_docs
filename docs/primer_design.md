@@ -47,7 +47,7 @@ The process is similar to Gibson Assembly, use the Gibson Assembly primer design
 
 Coming soon
 
-## Primer design for Gateway cloning
+## Primer design for Gateway Cloning
 
 <div class="video-sizer">
     <div class="video-wrapper">

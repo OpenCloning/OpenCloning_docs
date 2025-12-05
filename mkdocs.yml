@@ -51,7 +51,7 @@ nav:
   - Supported methods:
       - 🛠 Cre/LoxP: methods/cre_loxp.md
       - CRISPR-HDR: methods/crispr_hdr.md
-      - 🛠 Gateway Cloning: methods/gateway.md
+      - Gateway Cloning: methods/gateway.md
       - Gibson Assembly: methods/gibson.md
       - Golden Gate Assembly: methods/golden_gate.md
       - Homologous Recombination: methods/homologous_recombination.md

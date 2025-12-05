@@ -46,9 +46,6 @@ extra:
   umami_website_id: 4a7654bd-8d6c-4144-9679-07f19de0e530
   version:
     provider: mike
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/OpenCloning
 
 nav:
   - Home: index.md

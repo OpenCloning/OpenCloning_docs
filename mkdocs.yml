@@ -59,7 +59,7 @@ nav:
       - In-Fusion Cloning: methods/in_fusion.md
       - Overlap Extension PCR: methods/overlap_extension.md
       - Oligonucleotide hybridization: methods/oligonucleotide_hybridization.md
-      - 🛠 PCR: methods/pcr.md
+      - PCR: methods/pcr.md
       - Polymerase extension of overhangs: methods/polymerase_extension.md
       - Restriction / Ligation: methods/restriction_ligation.md
       - Reverse Complement: methods/reverse_complement.md

@@ -90,4 +90,15 @@ Would produce the sequence below. For full documentation on the meaning of overh
 tcaaaagtatag
 ```
 
+## Loading sequences from an Electronic Lab Notebook
+
+If you are using [eLabFTW](https://www.elabftw.net/), you can load and save sequences to your electronic lab notebook. To see how it works, check the [eLabFTW integration documentation](https://doc.elabftw.net/opencloning.html).
+
+## Loading sequences stored as static files in the server
+
+If you are running your own instance of OpenCloning (see [running locally](https://github.com/manulera/OpenCloning?tab=readme-ov-file#%EF%B8%8F-getting-started-in-5-minutes)), you can mount a directory into the docker container that contains:
+* An `index.json` file with a directory of sequences and syntaxes in your repository.
+* The sequences themselves as `fasta`, `genbank`, `snapgene` or `ape` files.
+
+To see how to set this up, check the [docker-compose.yml](https://github.com/manulera/OpenCloning/blob/master/docker-compose.yml) file (`STATIC_CONTENT_PATH` env var and volumes). For an example of directory structure and `index.json` file, see the [example directory](https://github.com/manulera/OpenCloning/tree/master/static_content).
 

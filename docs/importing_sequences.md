@@ -102,3 +102,26 @@ If you are running your own instance of OpenCloning (see [running locally](https
 
 To see how to set this up, check the [docker-compose.yml](https://github.com/manulera/OpenCloning/blob/master/docker-compose.yml) file (`STATIC_CONTENT_PATH` env var and volumes). For an example of directory structure and `index.json` file, see the [example directory](https://github.com/manulera/OpenCloning/tree/master/static_content).
 
+If you set this up properly, in the `Source type` dropdown when importing a sequence, you should see the option `Local server file`. Sequences can be associated with categories in the `index.json` file, and should be able to filter by category when selecting a sequence.
+
+<div markdown style="max-width: 300px" class="img-container">
+![Screenshot of sequence import form showing static content option](../assets/importing_local_server.png)
+</div>
+
+You should also be able to import a syntax from the server in the `Assembler` tab when you click on `Load Syntax`.
+
+<div markdown style="max-width: 500px" class="img-container">
+![Screenshot of sequence import form showing syntax option](../assets/importing_local_server_syntax.png)
+</div>
+
+Finally, when the syntax is loaded, you should be able to import multiple sequences at once in the `Assembler` tab:
+
+<div markdown style="max-width: 800px" class="img-container">
+![Screenshot of sequence import form showing multiple sequences option](../assets/importing_local_server_assembler.png)
+</div>
+
+Clicking there, you will be able to select multiple sequences to import at once. You can import all sequences within the chosen category if you select `Select All` in the `Sequence` dropdown.
+
+<div markdown style="max-width: 400px" class="img-container">
+![Screenshot of sequence import form showing select all option](../assets/importing_local_server_assembler_select_all.png)
+</div>

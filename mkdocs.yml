@@ -73,6 +73,8 @@ nav:
   - Primer design: primer_design.md
   - Sequencing data: sequencing_data.md
   - Annotating sequences: annotating_sequences.md
+  - Assembler: assembler.md
+  - Syntax Builder: syntax_builder.md
   - Templates: templates.md
   - Running your own instance: running_your_own_instance.md
   - Contributing: contributing.md

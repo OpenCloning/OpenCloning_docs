@@ -6,7 +6,14 @@ description: Guide to the OpenCloning Assembler. Learn how to use the assembler 
 
 ## What is the OpenCloning Assembler?
 
-The OpenCloning Assembler is a tool that allows you to clone with MoClo and Golden Gate kits. The best way to get a feeling of what it can do is to try it with one of the Syntaxes that are already available.
+The OpenCloning Assembler is a tool that allows you to clone with MoClo and Golden Gate kits. The best way to get a feeling of what it can do is to try it with one of the Syntaxes that are already available. Below is a video showing how to use the tool.
+
+<div class="video-sizer">
+    <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/ecd9WUIz6O8" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
 
 ## Getting started with the Assembler
 

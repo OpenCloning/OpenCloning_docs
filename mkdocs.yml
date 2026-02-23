@@ -78,3 +78,5 @@ nav:
   - Templates: templates.md
   - Running your own instance: running_your_own_instance.md
   - Contributing: contributing.md
+  - Misc:
+    - How does GoldenBraid assembly work?: goldenbraid.md

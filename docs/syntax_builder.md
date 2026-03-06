@@ -83,6 +83,11 @@ Below is an example illustrating the meaning of the different options for the `C
 
 You can also download the parts as a tabular file, if you prefer to edit in a spreadsheet rather than the interface by clicking on `Download parts table`.
 
+
+!!! info "IMPORTANT: You do not have to define EVERY possible overhang combination"
+
+    You do not have to define every possible overhang combination. For the example syntax above, if you use a plasmid in the Assembler containing a part `AGAG-CGAA`, spanning from the promoter to the end of the CDSx, it will be automatically picked up by the Assembler and added as an option. In the table of uploaded plasmids (see [below](#updating-linked-plasmids)), it will be displayed as `Spans multiple parts`.
+
 #### Validation
 
 The app checks a handful of things to make sure the syntax is valid:

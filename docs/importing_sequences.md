@@ -19,6 +19,7 @@ The easiest way to load your files is to drag and drop your files into the appli
 * Multiple sequence files: FASTA (`.fasta`, `.fa`), GenBank (`.gb`, `.gbk`), SnapGene (`.dna`), ApE (`.ape`).
  > ⚠️ If a FASTA or GenBank file dropped contains multiple sequences, only the first one will be loaded.
 * A single `.json` or `.zip` file containing a cloning strategy (see [exporting docs](./exporting.md#download-cloning-history)).
+* If you import a single `.dna` file, OpenCloning will try to parse the SnapGene history. If it does not contain manual edits (only cloning steps), it will be able to do so.
 
 <div markdown style="max-width: 500px" class="img-container">
 ![Animation demonstrating drag-and-drop file import functionality in OpenCloning](../assets/importing_sequences_drop.gif)

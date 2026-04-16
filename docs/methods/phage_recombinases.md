@@ -45,9 +45,9 @@ Some recombinases catalyse both the forward and reverse reactions (`attB + attP 
 
 * Like other assembly methods, click the plus icon below a sequence in the `Cloning` tab and select `Recombinase`.
 * Select the input sequences in the `Assembly inputs` field:
-  * Use one fragment for excision / inversion.
-  * For integration of one or more fragments / plasmids into a genome, select all inputs and tick the option `Input contains genome`. That will make OpenCloning treat the genomic sequence not as a linear DNA fragment, but as a chromosome to perform the integration.
-  * For an assembly of linear and/or circular fragments, select all inputs and untick the option `Input contains genome`. That will treat all linear inputs as linear DNA fragments.
+    * Use one fragment for excision / inversion.
+    * For integration of one or more fragments / plasmids into a genome, select all inputs and tick the option `Input contains genome`. That will make OpenCloning treat the genomic sequence not as a linear DNA fragment, but as a chromosome to perform the integration.
+    * For an assembly of linear and/or circular fragments, select all inputs and untick the option `Input contains genome`. That will treat all linear inputs as linear DNA fragments.
 * Add one or more recombinases by specifying their recognition sites. Each recombinase needs:
     * **Site 1** and **Site 2**: sequences matching the uppercase–lowercase–uppercase pattern (e.g. `AAaaTTC`, `CCaaGC`).
     * **Site 1 name** and **Site 2 name** (optional): labels such as `attB` and `attP`, which default to `attB` and `attP`.

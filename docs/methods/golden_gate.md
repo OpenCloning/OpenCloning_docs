@@ -51,9 +51,16 @@ Like any other cloning method, click on the plus icon below a sequence in the `C
 
 <!--description-end-->
 
-### Extra features
+{%
+    include-markdown "./restriction_ligation.md"
+    start="<!--partially-digested-products-start-->"
+    end="<!--partially-digested-products-end-->"
+    html=true
+%}
 
-* If you are using a MoClo kit, you can speed up the process by using the existing templates or create your own (see [Templates](../templates.md)).
+## Extra features
+
+* If you are using a MoClo kit / following a Golden Gate syntax, you can speed up the desing process by using the [Assembler](../assembler.md).
 * If you want to design primers for the Golden Gate Assembly (see [Primer design](../primer_design.md#primer-design-for-golden-gate-assembly)).
 * If you want to separate the restriction and ligation steps (see [Restriction / Ligation](../methods/restriction_ligation.md#how-to-separately-perform-restriction-and-ligation-using-opencloning)).
 * You can pass already digested fragments or [Oligonucleotide hybridization](./oligonucleotide_hybridization.md) products as input sequences. They don't have to be necessarily digested.

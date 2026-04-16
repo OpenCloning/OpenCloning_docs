@@ -53,6 +53,16 @@ For that, click on the plus icon below a sequence in the `Cloning` tab and selec
     </div>
 </div>
 
+<!--partially-digested-products-start-->
+
+## Partially digested products / internal restriction sites
+
+If your fragment contains an internal restriction site that you did not notice, the products including it will be filtered out by OpenCloning, because they correspond to partial digestion rather than complete digestion of a single molecule.
+
+If you intentionally want to model the product resulting from partial digestion, you can do so by passing the same input sequence twice. This lets OpenCloning combine products coming from two independently digested copies of the same starting sequence.
+
+<!--partially-digested-products-end-->
+
 ## Extra info
 
 If you want to design primers with restriction sites, see the [primer design](../primer_design.md) page.

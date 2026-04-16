@@ -45,6 +45,19 @@ If you want to load a `.json` or `.zip` file containing a cloning strategy, you 
 ![Screenshot showing File menu with Load cloning history from file option](../assets/importing_sequences_load_cloning_history.png)
 </div>
 
+## Copying an existing sequence / reusing a sequence.
+
+!!! info "Ideas to improve this feature?"
+
+    We are not sure this is the best / only place to allow users to copy sequences, if you have ideas to make it more intuitive, please
+    [reach out](./contributing.md).
+
+To copy an existing sequence, add a new "lane" by clicking on the + button, and select `Use an existing sequence` in the `Source type` dropdown. Then, select the sequence to copy, and click on `Copy sequence`.
+
+<div markdown style="max-width: 800px" class="img-container">
+![Screenshot showing File menu with Copy sequence option](../assets/importing_copy_sequence.gif)
+</div>
+
 ## Loading sequences from a repository
 
 OpenCloning can load sequences from multiple repositories. On `Source type`, select `Repository`, and choose from the list of available repositories.
